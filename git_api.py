@@ -218,13 +218,13 @@ def GA1_13(question):
         print("No email found")
     github_replace_text(
         token=token,
-        repo="Tusharisme/tds",
+        repo="Irina/llm-based-application-2",
         file_path="email.json",
         pattern=r'"\s*email\s*"\s*:\s*"[^"]+"',
         replacement=f'"email": "{email}"',
     )
     print("Email updated in email.json")
-    return "https://raw.githubusercontent.com/Tusharisme/tds/refs/heads/main/email.json"
+    return "https://raw.githubusercontent.com/Irina/llm-based-application-2/refs/heads/main/email.json"
 
 
 def GA2_3(question):
@@ -312,7 +312,7 @@ def GA2_7(question):
 
 
 def GA4_8(question):
-    return "https://github.com/Tusharisme/tds"
+    return "https://github.com/Irina/llm-based-application-2"
 
 
 # GA1_13("""pre-commit: Git hooks
